@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Form</title>
+<style type="text.css">
+body {
+    margin: 0px 0px 0px 0px;
+}
+#header {
+    background-color: rgb(218, 100, 21);
+    padding-bottom: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+#conteinerform {
+    width: 100%;
+    height: 440px;
+    position: absolute;
+}
+.home {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 70px;
+}
+#form {
+    display: inline;
+}
+#form-c {
+    clear: both;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#fname {
+
+}
+#label-name{
+    float: left;
+}
+#conteiner {
+    width: 150px;
+    height: 440px;
+    
+}
+.submit {
+    padding: 10px;
+}
+#footer {
+    width: 100%;
+    height: 130px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #aa713b;
+    height: 100px;
+    text-align: center;
+}
+.footcont {
+    color: white;
+}
+.contact {
+    color: white;
+}
+#contentf {
+    margin-left: 0px;
+    width: 100%;
+}
+</style>
+</head>
+<div id="header">
+    <nav>
+        <h2>
+            <ul>
+                <a class="head" href="index.html">Головна</a>
+                <a class="head" href="components.html">Комплектуючі</a>
+                <a class="head" href="characteristics.html">Характеристики</a>
+                <a class="head" href="periphery.html">Переферія</a>
+                <a class="head" href="system.html">ПЗ/SO</a>
+                <a class="head" href="form.html">Запитання</a>
+            </ul>
+        </h2>
+    </nav>
+</div>
+<body>
+    <div id="conteiner">
+        <form id="form" method="post" action="mailto:yaroslav0831@gmail.com?subject=From my site" target="_blank">
+        <center>
+            <h2>Форма для заповнення</h2>
+        <div class="form-c">
+            <label for="fname" id="label-name">
+                1.Ім`я
+            </label><br>
+            <input type="text" id="fname" name="fname"value="" placeholder="Введіть ім`я">
+        <div>
+            <label id="label-name">2.Запитання</label><br>
+            <input type="text" id="" name="name" value="" placeholder="Введіть запитання">
+        </div>
+        <div class="form-c">
+            <p id="label-name">3.Чи допоміг Вам цей сайт?</p>
+            <select>
+                 <option>
+                    (Так)
+                 </option><br>
+                 <option>
+                    (Ні)
+                 </option><br>
+            </select><br>
+        </div>
+        <div class="form-c"> 
+            <br><p id="label-name">4.Допоможіть зробити сайт краще:</p>
+            <textarea name="comment" id="comment" rows="5" cols="40" maxlength="100"></textarea></br>
+            
+        </div>
+        <div>
+            <p>5.Оцініть сайт:</p>
+            <select>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+            </select>
+        </div>
+        <div>
+            <p>6.Якість поданого матеріалу</p>
+            <select name="" id="">
+                <option value="">5.Дуже добре</option>
+                <option value="">4.Добре</option>
+                <option value="">3.Непогано</option>
+                <option value="">2.Могло б бути краще</option>
+                <option value="">1.Дуже погано</option>
+            </select>
+            
+        </div>
+        <div class="submit">
+            <input type="submit"  value="Відправити"/>
+        </div>
+        
+        </center>
+        </form>
+        <div id="footer">
+            <h2 class="footcont">Contacts</h2>
+            <p><span>Contact-number:</span><a href="tel:+7777777777" class="contact">+777 777 77 77</a></p>
+            <p><span>Email:</span><a href="mailto:yaroslav0831@gmail.com" class="contact">yaroslav0831@gmail.com</a></p>    
+        </div>  
+    </div>              
+    <div id="conteinerform">
+        <div id="contentf">
+            <h2>Форма для заповнення</h2>
+            <form method="post" action="mailto: yaroslav0831@gmail.com?subject=From me site" target="_blank" >
+                <div class="form">
+                    <label for="n">Nickname/Firstname</label>
+                    <input type="text" id="n" name="name" placeholder="Введіть нік або ім`я">
+                    <label for="n">Запитання</label>
+                    <input type="text" id="" name="name" placeholder="Введіть запитання">
+                    <label for="n">Чи допоміг вам цей сайт?</label>
+                    <input type="text" id="n" name="name" value="Так">
+                    <input type="text" id="n" name="name" value="Ні">
+                    <label for="n">Побажання</label>
+                    <input type="text" id="n" name="name" placeholder="">
+                </div>
+            </form>
+        </div>
+        <div id="footer">
+            <h2 class="footcont">Contacts</h2>
+            <p><span>Contact-number:</span><a href="tel:+7777777777" class="contact">+777 777 77 77</a></p>
+            <p><span>Email:</span><a href="mailto:yaroslav0831@gmail.com" class="contact">yaroslav0831@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
